@@ -2,6 +2,7 @@
 	"name": "tailwindcss-reproduction",
 	"version": "1.0.0",
 	"scripts": {
+		"dev:open": "svelte-kit dev --open",
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build"
 	},
