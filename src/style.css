@@ -1,0 +1,8 @@
+@tailwind base;
+
+::selection {
+	@apply text-[#ffffff] bg-[#1d1d20];
+}
+
+@tailwind components;
+@tailwind utilities;
