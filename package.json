@@ -5,14 +5,14 @@
 		"dev:open": "svelte-kit dev --open",
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
-		"demo": "svelte-kit build && serve build"
+		"demo": "svelte-kit build && live-server build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.21",
 		"@sveltejs/kit": "1.0.0-next.196",
 		"autoprefixer": "10.4.0",
+		"live-server": "^1.2.1",
 		"postcss": "8.3.11",
-		"serve": "^13.0.2",
 		"svelte": "3.44.1",
 		"tailwindcss": "3.0.0-alpha.2"
 	},
