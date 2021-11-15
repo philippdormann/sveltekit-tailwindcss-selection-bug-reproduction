@@ -4,14 +4,15 @@
 	"scripts": {
 		"dev:open": "svelte-kit dev --open",
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build"
+		"build": "svelte-kit build",
+		"demo": "svelte-kit build && serve build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "1.0.0-next.21",
 		"@sveltejs/kit": "1.0.0-next.196",
-		"auto-changelog": "2.3.0",
 		"autoprefixer": "10.4.0",
 		"postcss": "8.3.11",
+		"serve": "^13.0.2",
 		"svelte": "3.44.1",
 		"tailwindcss": "3.0.0-alpha.2"
 	},
